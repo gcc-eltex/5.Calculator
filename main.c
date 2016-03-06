@@ -17,7 +17,8 @@ void getoperand(double *op_1, double *op_2){
 
 int main()
 {
-	char option = 0, error;
+	char option = 0;
+	int error;
 	double op_1, op_2, rez;
 	while(option != 5){
 		write(1,"\E[H\E[2J",7);
